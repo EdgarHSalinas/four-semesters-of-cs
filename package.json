@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Computer Science Fundamentals",
+  "main": "index.html",
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarHSalinas/four-semesters-of-cs.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Edgar Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarHSalinas/four-semesters-of-cs/issues"
+  },
+  "homepage": "https://github.com/EdgarHSalinas/four-semesters-of-cs#readme"
+}
