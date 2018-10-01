@@ -13,10 +13,10 @@
   delete - function - accepts an index, removes value from list, collapses, 
                       and returns removed value
 
-  As always, you can change describe to xdescribe to prevent the unit tests from running while
+  As always, you can change describe to x describe to prevent the unit tests from running while
   you work
 */
-class ArrayList {
+export default class ArrayList {
   constructor() {
     this.length = 0;
     this.data = {};
@@ -72,6 +72,6 @@ list.serialize(); //?
 
 abc.map(character => list.push(character)); //?
 
-module.exports = ArrayList;
+
 
 

@@ -1,4 +1,4 @@
-const ArrayList = require('./arrayList')
+import ArrayList from './arrayList';
 
 let list = new ArrayList();
 

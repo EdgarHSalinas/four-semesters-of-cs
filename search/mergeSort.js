@@ -15,7 +15,7 @@
   preferred method of introspection like console.log().
 */
 
-const mergeSort = nums => {
+export const mergeSort = nums => {
     if (nums.length < 2) {
         return nums
     }
@@ -40,8 +40,3 @@ const merge = (left, right) => {
 
     return results.concat(left, right)
 }
-
-var nums = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1]
-var ans = mergeSort(nums)
-console.log(ans)
-// expect(ans).toEqual([1,2,3,4,5,6,7,8,9,10]);

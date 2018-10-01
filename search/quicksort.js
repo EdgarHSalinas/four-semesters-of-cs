@@ -19,7 +19,7 @@
 */
 
 
-const quickSort = nums => {
+export const quickSort = nums => {
   if (nums.length <= 1) return nums;
 
   const pivot = nums[nums.length - 1];
@@ -38,5 +38,4 @@ const quickSort = nums => {
   // return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
-const input = [10, 8, 2, 1, 6, 3, 9, 4, 7, 5];
-quickSort(input); //?
+
